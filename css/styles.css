@@ -1,0 +1,371 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*********navigation bar *************/
+
+.navigation{
+    padding: 0px 50px 20px 50px;
+    background-image: linear-gradient(to right, #67B26F 0%, rgba(24,86,117,0.62) 100%, rgba(0,0,0,0.95) 100%);
+}
+@media (max-width:600px){
+    .navigation{
+        position: relative;
+    }
+}
+#navbar-content {
+padding-top: 20px;
+}
+.logo-img{
+    width:150px;
+    position: relative;
+    top: 10px;
+}
+#navbar-content ul li {
+margin: 0 20px;
+}
+#navbar-content ul li a {
+color: #fff;
+font-weight: 600;
+font-size: 20px;
+}
+.blue-button{
+	background:  #67B26F;
+	border-radius:3px;
+    display:inline-block;
+    border: 0;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+    padding:10px 25px;	
+    position: relative;
+    bottom: 10px;
+    font-weight: 500;
+}
+
+@media(max-width : 537px){
+.logo-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+}
+@media(max-width : 440px){
+    .logo-img{
+        width: 140px;
+    }
+    }
+
+/*********** banner area **************/
+
+.banner-area{
+    padding: 4% 5%;
+    margin-top: 100px;
+}
+
+.header h1{
+    margin-top: 50px;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.header p{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.banner-img{
+    width: 100%;
+    height: 100%;
+}
+@media(max-width:600px){
+    .banner-img{
+        margin-top: 30px;
+    }
+    .banner-area{
+        padding-top: 0;
+        margin-top: 0;
+    }
+}
+
+/********** services **********/
+
+.services{
+    position: relative;
+    padding: 5% 10%;
+    margin-bottom: 80px;
+    background:  #67B26F;
+
+}
+.element-7{
+    width: 4%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.element-3{
+    width: 10%;
+    position: absolute;
+    right: 10px;
+    bottom: -140px;
+}
+@media(max-width: 770px){
+    .element-7{
+        width: 12%;
+    }
+    .element-3{
+        width: 30%;
+    }   
+}
+.services h1{
+    font-weight: 700;
+    font-size: 42px;
+    margin: 0% 0 5% 0;
+}
+.services div div  img{
+    width: 16%;
+}
+.services div div{
+    margin-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.services div div h3{
+    margin-bottom: 30px;
+    font-size: 20px;
+    margin: 30px 0;
+    font-weight: 500;
+}
+.services div div p{
+    font-size: 14px;
+}
+.services div div span{
+    font-size: 16px;
+    font-weight: 500;
+}
+.service-1 img{
+    margin-bottom: 23px;
+}
+.service-3 img{
+    margin-bottom: 23px;
+  
+}
+.service-3{
+    background-color: #ddf3f5;
+    border-radius: 2%;
+}
+.service-4 img{
+    margin-bottom: 13px;
+  
+}
+
+/*********** About ************/
+
+.about{
+    padding: 7% 6.5%;
+}
+.about-us-img{
+    width: 100%;
+}
+.about-col{
+    padding: 0 50px;
+}
+.about-col h1{
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 45px;
+}
+.about-col p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 60px;
+}
+.lmbtn{
+    padding: 10px 50px;
+}
+
+/********** features ***********/
+
+.features{
+    background-image: linear-gradient(to right, #00a8cc 10% ,#35B267);
+    padding: 3% 10% 1% 10%;
+}
+.feature{
+    margin: 20px 62px;
+}
+.feature img{
+    width: 75%;
+    margin-bottom: 50px;
+}
+.feature-1 img{
+    margin-bottom: 40px;
+}
+.feature-2 img{
+    width: 40%;
+    margin-bottom: 50px;
+}
+.feature-3 img{
+    margin-bottom: 47px;
+}
+.feature h1 {
+    color: #fff;
+    font-weight: 600;
+}
+.feature p{
+    color: #fff;
+    font-weight: 500;
+}
+
+/********** steps ***********/
+
+.steps{
+    position: relative;
+    margin-bottom: 100px;
+}
+.steps h1{
+ margin: 80px 0;
+ font-weight: 700;
+}
+.step{
+    padding: 5% 4%;
+}
+.step img{
+    width: 30%;
+    margin-bottom: 30px;
+}
+.step-2 img{
+   margin-bottom: 40px;
+}
+.step-5 img{
+    margin-bottom: 40px;
+ }
+.step h3{
+    margin-bottom: 20px;
+}
+.blue-box {
+	background:  #67B26F;
+ 
+}
+.element-6{
+    width: 3%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.element-5{
+    position: absolute;
+    width: 15%;
+    right: 15%;
+    top: -15px;
+}
+
+/*********** benefits *************/
+
+.benefits{
+    padding: 0% 8% 5% 8%;
+    position: relative;
+}
+.benefits li{
+    margin: 20px auto;
+}
+
+.benefits h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+/************ founders and advisors *************/
+
+.founders{
+    position: relative;
+    padding: 0 10% 0% 10%;
+    /* background-image: linear-gradient(to right, #67B26F 0%, rgba(24,86,117,0.62) 100%, rgba(0,0,0,0.95) 100%); */
+}
+.founder h1{
+    margin-top: 30px;
+    /* color: #fff; */
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.founder h3{
+    /* color: #fff; */
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.phone-numbers{
+    font-weight: bold;
+    font-size:20px;
+    line-height:2rem;
+    position: relative;
+    top: 30px;
+    margin-bottom:80px;
+
+}
+.founder p{
+    /* color: #fff; */
+}
+.founder img{
+    width: 60%;
+}
+.founders hr{
+    border: 0.2px solid black;
+}
+.element-3-2{
+    width: 10%;
+    position: absolute;
+    right: 0.1%;
+    top: 10%;
+}
+.element-2{
+    width: 4%;
+    position: absolute;
+    left: 0;
+    top: 53%;
+}
+.advisor{
+    margin-bottom: 20px;
+}
+.advisory-board{
+    /* color: #fff; */
+    padding: 5% 0;
+    font-weight: 700;
+}
+.advisor img{
+    width: 100%;
+}
+
+.advisor-3{
+    background-color: #393e46;
+}
+
+/*********** faqs **************/
+
+.faqs h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+.question{
+    padding: 5% 0 3% 0;
+}
+.green-question{
+    background:  #67B26F;
+}
+
+/*********** footer **************/
+
+.footer{
+    padding: 1% 0 1px 0; 
+    background-image: linear-gradient(to right, #67B26F 0%, rgba(24,86,117,0.62) 100%, rgba(0,0,0,0.95) 100%);
+}
+.footer p{
+    color: #fff;
+}
